@@ -7,17 +7,10 @@ For this assignment, you will implement several functions which will allow someo
 **Assignment Terminology**
 
 **elevation map**: We will represent an elevation map in Python as a List[List[int]]. 
-  An elevation map's outer list and inner lists will be non-empty.
-  An elevation map will be square. That is, the outer list List[List[int]] has the same length as each inner list List[List[int]], and the number of inner lists is equal to the length of the outer list. For example, in the figure above, the 3x3 elevation map is represented with a nested list of length 3, which contains 3 sub-lists, each of length 3.
-  An elevation map will only contain positive integers.
-  An example of an elevation map is:
-  valid_map = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-You may find it more intuitive to view this elevation map as:
-valid_map = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-The following examples are not elevation maps (note the lengths of all the lists in each list):
-invalid_map1 = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-invalid_map2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]] invalid_map3 = [[]]
-
+-An elevation map's outer list and inner lists will be non-empty.
+-An elevation map will be square. That is, the outer list List[List[int]] has the same length as each inner list List[List[int]], and the number of inner lists is equal to the length of the outer list. For example, in the figure above, the 3x3 elevation map is represented with a nested list of length 3, which contains 3 sub-lists, each of length 3.
+-An elevation map will only contain positive integers.
+  
 **cell**: We will represent a cell in Python as a list of 2 non-negative integers (List[int]). Given an elevation map m, we say "cell [i, j]" as a shorthand for m[i][j].
 
 **adjacent cell**: We will say that cell [i, j] is adjacent to cell [k, l] if and only if [k, l] equals one of:
