@@ -7,9 +7,9 @@ For this assignment, you will implement several functions which will allow someo
 **Assignment Terminology**
 
 **elevation map**: We will represent an elevation map in Python as a List[List[int]]. 
--An elevation map's outer list and inner lists will be non-empty.
--An elevation map will be square. That is, the outer list List[List[int]] has the same length as each inner list List[List[int]], and the number of inner lists is equal to the length of the outer list. For example, in the figure above, the 3x3 elevation map is represented with a nested list of length 3, which contains 3 sub-lists, each of length 3.
--An elevation map will only contain positive integers.
+* An elevation map's outer list and inner lists will be non-empty.
+* An elevation map will be square. That is, the outer list List[List[int]] has the same length as each inner list List[List[int]], and the number of inner lists is equal to the length of the outer list. For example, in the figure above, the 3x3 elevation map is represented with a nested list of length 3, which contains 3 sub-lists, each of length 3.
+* An elevation map will only contain positive integers.
   
 **cell**: We will represent a cell in Python as a list of 2 non-negative integers (List[int]). Given an elevation map m, we say "cell [i, j]" as a shorthand for m[i][j].
 
